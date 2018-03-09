@@ -7,7 +7,6 @@ import requests
 import webbrowser
 import urllib
 import pandas as pd
-import numpy as np
 
 import datetime
 from wechat_sender import Sender
@@ -43,7 +42,7 @@ def get_answer():
 
 def sendanswer(answer):
     msg=str(answer)
-    Sender(receivers='吴震',port=10002).send(msg)
+    Sender(receivers='吴震',port=10003).send(msg)
 
 
 
@@ -51,7 +50,7 @@ def sendanswer(answer):
 def main():
     while 1:
         get_answer()
-        time.sleep(30+random.random(2))
+        time.sleep(30+random.random())
 
 
 
