@@ -35,8 +35,8 @@ def get_answer():
     resp_dict = eval(str(resp))
     if resp_dict['status'] == 'success':
         if resp_dict['data']['status']=='tzpzz':
-            print('房屋待释放...')
-            sendanswer('房屋待释放...')
+            print('room is waiting...')
+           
         else:
             sendanswer('赶紧上自如APP...')
 
@@ -50,7 +50,7 @@ def sendanswer(answer):
 def main():
     while 1:
         get_answer()
-        time.sleep(30+random.random())
+        time.sleep(22+random.random())
 
 
 
