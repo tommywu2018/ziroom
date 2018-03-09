@@ -43,7 +43,7 @@ def get_answer():
 
 def sendanswer(answer):
     msg=str(answer)
-    Sender(receivers='吴震',port=10001).send(msg)
+    Sender(receivers='吴震',port=10002).send(msg)
 
 
 
