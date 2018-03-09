@@ -6,7 +6,7 @@ from wxpy import *
 from wechat_sender import listen
 bot = Bot(console_qr=True,cache_path=True)
 
-my1 = bot.friends().search('吴明')[0]
+my1 = bot.friends().search('吴震')[0]
 
 
 listen(bot,receivers=my1,port=10001)
