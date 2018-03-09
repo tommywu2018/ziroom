@@ -49,8 +49,10 @@ def sendanswer(answer):
 
 
 def main():
-    get_answer()
-    time.sleep(30+random.random())
+    while 1:
+        get_answer()
+        time.sleep(30+random.random(2))
+
 
 
 
