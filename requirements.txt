@@ -72,7 +72,7 @@ tabulate==0.8.1
 toolz==0.8.2
 tornado==4.5.2
 traitlets==4.3.2
-urllib3==1.22
+urllib3==1.24.2
 wcwidth==0.1.7
 wechat-sender==0.1.4
 wxpy==0.3.9.8
